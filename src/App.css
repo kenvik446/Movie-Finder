@@ -1,0 +1,137 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #121212;
+  color: #fff;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.center-content {
+  width: 60%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.rightbar {
+  width: 20%;
+  background-color: #e0e0e0;
+  color: #121212;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+.movie-history-item {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-history-item img {
+  width: 100px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.ban-list li {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.movie-card {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ban-list {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.ban-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ban-list li {
+  background-color: #ff4d4d;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ban-list li:hover {
+  background-color: #ff6666;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
